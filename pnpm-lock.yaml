@@ -12,8 +12,11 @@ dependencies:
     version: 18.2.0(react@18.2.0)
 
 devDependencies:
+  '@cloudflare/workers-types':
+    specifier: ^4.20230307.0
+    version: registry.npmmirror.com/@cloudflare/workers-types@4.20230307.0
   '@types/node':
-    specifier: ^20.2.1
+    specifier: 20.2.1
     version: registry.npmmirror.com/@types/node@20.2.1
   '@types/react':
     specifier: ^18.0.31
@@ -192,6 +195,12 @@ packages:
     resolution: {integrity: sha512-wVORMBGO/FAs/++blGNeAVdbNKtIh1rbBL2EyQ1+J9lClJ93KiiKe8PmFIVdXhHcyv44SL9oglmfeSsndo0jRw==}
     engines: {node: '>=12.20'}
     hasBin: true
+    dev: true
+
+  registry.npmmirror.com/@cloudflare/workers-types@4.20230307.0:
+    resolution: {integrity: sha512-Go968aDDcqONHQcUdgIiPRkPdT4QTzD0ecHJsI1u7ZiHPMOoZn+Dy7hYsdUJ5ldX9wTZDrICBM1rDKTRaDUitg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@cloudflare/workers-types/-/workers-types-4.20230307.0.tgz}
+    name: '@cloudflare/workers-types'
+    version: 4.20230307.0
     dev: true
 
   registry.npmmirror.com/@next/swc-android-arm-eabi@13.2.4:
