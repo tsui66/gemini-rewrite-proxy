@@ -37,9 +37,9 @@ export default async function handleRequest(req: Request & { nextUrl?: URL }) {
     });
   }
 
-  const { pathname, search } = req.nextUrl ? req.nextUrl : new URL(req.url);
-  const url = new URL(pathname + search, "https://generativelanguage.googleapis.com").href;
-  console.log('Debug console url:', url)
+  const { pathname, searchParams } = req.nextUrl ? req.nextUrl : new URL(req.url);
+  const url = new URL(pathname + `?key=${searchParams.get('key')}`, "https://generativelanguage.googleapis.com").href;
+  // console.log('Debug console url:', url)
   const headers = pickHeaders(req.headers, ["content-type", "authorization"]);
 
   const res = await fetch(url, {

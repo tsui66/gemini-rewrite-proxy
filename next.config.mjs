@@ -4,7 +4,13 @@ const config = {
     return [
       {
         source: "/:path*",
-        destination: "/api/proxy",
+        "has": [
+          {
+            "type": "query",
+            "key": "key",
+          }
+        ],
+        destination: "/api/proxy"
       },
     ];
   },
