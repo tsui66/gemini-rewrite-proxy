@@ -1,20 +1,18 @@
 {
-  "name": "bard-proxy",
-  "version": "0.1.0",
+  "name": "openai-proxy",
+  "version": "0.0.0",
+  "devDependencies": {
+    "@types/react": "^18.0.31",
+    "typescript": "^5.0.2"
+  },
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "next": "next",
+    "build": "next build"
   },
   "dependencies": {
-    "@types/node": "20.2.1",
-    "@types/react": "18.2.6",
-    "@types/react-dom": "18.2.4",
-    "next": "13.4.2",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "5.0.4"
+    "next": "^13.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
