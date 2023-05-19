@@ -1,5 +1,3 @@
-import handleRequest from "../../src/handle-request";
-
 export const config = {
   runtime: "edge", // this is a pre-requisite
   // https://vercel.com/docs/concepts/edge-network/regions
