@@ -2,6 +2,7 @@
   "name": "openai-proxy",
   "version": "0.0.0",
   "devDependencies": {
+    "@types/node": "^20.2.1",
     "@types/react": "^18.0.31",
     "typescript": "^5.0.2"
   },
